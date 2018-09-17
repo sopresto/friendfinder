@@ -1,0 +1,162 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link type="stylesheet" href="/stuff.css">
+    <style>
+        
+        body {
+            padding: 50px;
+        
+        }
+
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Find your Perfect Match</h1>
+    </center>
+
+    <form method="POST" action="/submit">
+        <div class="form-group">
+            <label for="formGroupExampleInput">Name</label>
+            <input type="text" name="user" class="form-control" id="formGroupExampleInput" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Photo</label>
+            <input type="text" name="photo" class="form-control" id="formGroupExampleInput2" placeholder="Link to Photo">
+        </div>
+
+    <div>
+
+            <div class="form-group">
+                <label for="exampleFormControlInput1"><strong>Questionnaire</strong></label>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Question 1</label>
+                <h4>How important is religion in a new developing friendship?</h4>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option name="answer" >1(strongly agree)</option>
+                    <option name="answer">2</option>
+                    <option name="answer">3</option>
+                    <option name="answer">4</option>
+                    <option name="answer">5(strongly disagree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Question 2</label>
+                <h4>How much do you care about the appearance of your friends?</h4>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option name="answer">1(strongly agree)</option>
+                    <option name="answer">2</option>
+                    <option name="answer">3</option>
+                    <option name="answer">4</option>
+                    <option name="answer">5(strongly disagree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Question 3</label>
+                <h4>On a scale of 1-5, how important is it that your friends travel?</h4>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option name="answer">1(strongly agree)</option>
+                    <option name="answer">2</option>
+                    <option name="answer">3</option>
+                    <option name="answer">4</option>
+                    <option name="answer">5(strongly disagree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Question 4</label>
+                <h4>On a scale of 1-5, how important is it for you to talk to your friends daily?</h4>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option name="answer">1(strongly agree)</option>
+                    <option name="answer">2</option>
+                    <option name="answer">3</option>
+                    <option name="answer">4</option>
+                    <option name="answer">5(strongly disagree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Question 5</label>
+                <h4>How much of a type A personality do you have on a scale 1-5?</h4>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option name="answer">1(strongly agree)</option>
+                    <option name="answer">2</option>
+                    <option name="answer">3</option>
+                    <option name="answer">4</option>
+                    <option name="answer">5(strongly disagree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Question 6</label>
+                <h4>How important is going out to the bar or club to you?</h4>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option name="answer">1(strongly agree)</option>
+                    <option name="answer">2</option>
+                    <option name="answer">3</option>
+                    <option name="answer">4</option>
+                    <option name="answer">5(strongly disagree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Question 7</label>
+                <h4>On this scale of 1-5 how often do you like to hang out at home?</h4>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option name="answer">1(strongly agree)</option>
+                    <option name="answer">2</option>
+                    <option name="answer">3</option>
+                    <option name="answer">4</option>
+                    <option name="answer">5(strongly disagree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Question 8</label>
+                <h4>How important are politics to you?</h4>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option name="answer">1(strongly agree)</option>
+                    <option name="answer">2</option>
+                    <option name="answer">3</option>
+                    <option name="answer">4</option>
+                    <option name="answer">5(strongly disagree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Question 9</label>
+                <h4>How much on this scale of 1-5 do you like dogs?</h4>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option name="answer">1(strongly agree)</option>
+                    <option name="answer">2</option>
+                    <option name="answer">3</option>
+                    <option name="answer">4</option>
+                    <option name="answer">5(strongly disagree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Question 10</label>
+                <h4>How important is it for your friends to have the same ideals?</h4>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option name="answer">1(strongly agree)</option>
+                    <option name="answer">2</option>
+                    <option name="answer">3</option>
+                    <option name="answer">4</option>
+                    <option name="answer">5(strongly disagree)</option>
+                </select>
+            </div>
+            <center>
+                <button>Submit</button>
+            </center>
+
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>
